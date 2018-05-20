@@ -1,0 +1,52 @@
+import React, { Component } from 'react';
+import { Grid, Cell } from 'react-mdl';
+
+class Landing extends Component {
+  render() {
+    return(
+      <div style={{width: '100%', margin: 'auto'}}>
+        <Grid className="landing-grid">
+          <Cell col={12} style={{ paddingBottom: "30px", overflow: "scroll" }}>
+            <img 
+              src={require('../images/avatar.png')}
+              alt="avatar"
+              className="avatar"
+            />
+
+            <div className="banner-text">
+              <h1>Full stack web developer</h1>
+
+            <hr/>
+
+              <p>HTML/CSS | Bootstrap | JavaScript | React | NodeJS | Express | Ruby | Rails</p>
+              
+              { /* LinkedIn */ }
+              <div className="social-links">
+                <a href="https://github.com/KosaburoKaneko" rel="noopener noreferrer" target="_blank">
+                  <i className="fa fa-github-square" aria-hidden="true"></i>
+                </a>
+              
+              { /* Github */ }
+                <a href="https://twitter.com/Kosaburo_Kaneko" rel="noopener noreferrer" target="_blank">
+                  <i className="fa fa-twitter-square" aria-hidden="true"></i>
+                </a>
+              
+              { /* Freecodecamp */ }
+                <a href="https://www.facebook.com/kosaburo.kaneko" rel="noopener noreferrer" target="_blank">
+                  <i className="fa fa-facebook-square" aria-hidden="true"></i>
+                </a>
+              
+              { /* Youtube */ }
+                <a href="https://b1840943.hatenablog.jp/" rel="noopener noreferrer" target="_blank">
+                  <i className="fa fa-rss-square" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </Cell>
+        </Grid>
+      </div>
+    )
+  }
+}
+
+export default Landing;
