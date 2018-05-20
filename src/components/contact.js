@@ -9,9 +9,9 @@ class Contact extends Component {
           <Cell col={6} tablet={8} phone={4}>
             <h2>Kosaburo Kaneko</h2>
             <img 
-            src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png" 
-            alt="avatar"
-            style={{ height: '250px' }}
+              src={require('../images/icon.jpg')}
+              alt="icon"
+              className="contact-icon"
             />
             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pulvinar commodo mauris, ut mollis metus scelerisque ut. Etiam eleifend orci vel lobortis tincidunt. Maecenas in nunc elementum, eleifend magna eget, ultrices justo. Aliquam eleifend erat id tortor convallis, ac placerat dolor malesuada. 

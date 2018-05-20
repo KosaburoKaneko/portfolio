@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button } from 'react-mdl';
 
 class Projects extends Component {
   constructor(props) {
@@ -13,7 +13,7 @@ class Projects extends Component {
         <Grid className="projects-grid">
           {/* Project 1 */}
           <Card shadow={3} style={{ minWidth: '450', margin: '2em auto' }}>
-            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://pbs.twimg.com/profile_images/446356636710363136/OYIaJ1KK_400x400.png), center / cover' }}>React Project #1</CardTitle>
+            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(../src/images/icon.jpg), center / cover' }}>React Project #1</CardTitle>
             <CardText>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pulvinar commodo mauris, ut mollis metus scelerisque ut. Etiam eleifend orci vel lobortis tincidunt. Maecenas in nunc elementum, eleifend magna eget, ultrices justo. Aliquam eleifend erat id tortor convallis, ac placerat dolor malesuada. 
             </CardText>

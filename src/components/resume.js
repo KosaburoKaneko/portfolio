@@ -12,8 +12,8 @@ class Resume extends Component {
           <Cell col={4} tablet={8} phone={4}>
             <div style={{ textAlign: 'center' }}>
               <img 
-                src="http://www.shareicon.net/download/2015/09/18/103157_man_512x512.png" 
-                alt="avatar"
+                src={require('../images/icon_face.jpg')}
+                alt="icon"
                 style={{ height: '200px' }}
               />
             </div>

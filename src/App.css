@@ -19,9 +19,10 @@
   overflow: scroll;
 }
 
-.avatar {
-  height: 250px;
-  padding-top: 64px;
+.icon {
+  width: 298.5px;
+  margin: 64px 0 35px;
+  border-radius: 10px;
 }
 
 .banner-text {
@@ -105,6 +106,11 @@
   padding-right: 5rem;
 }
 
+.contact-icon {
+  height: 250px;
+  border-radius: 10px;
+}
+
 /* ------------------ Resume Page ------------------ */
 
 .resume-right-col {
@@ -141,6 +147,9 @@
 
   /* ------------------ Landing Page ------------------ */
 
+  .icon {
+    width: 35%;
+  }
 
   .banner-text {
     background-color: black;
