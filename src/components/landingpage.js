@@ -8,9 +8,9 @@ class Landing extends Component {
         <Grid className="landing-grid">
           <Cell col={12} style={{ paddingBottom: "30px", overflow: "scroll" }}>
             <img 
-              src={require('../images/avatar.png')}
-              alt="avatar"
-              className="avatar"
+              src={require('../images/icon.jpg')}
+              alt="icon"
+              className="icon"
             />
 
             <div className="banner-text">
