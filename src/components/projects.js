@@ -26,9 +26,9 @@ class Projects extends Component {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pulvinar commodo mauris, ut mollis metus scelerisque ut. Etiam eleifend orci vel lobortis tincidunt. Maecenas in nunc elementum, eleifend magna eget, ultrices justo. Aliquam eleifend erat id tortor convallis, ac placerat dolor malesuada. 
             </CardText>
             <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>LiveDemo</Button>
+              <a href="https://github.com/KosaburoKaneko/portfolio" rel="noopener noreferrer" target="_blank">
+                <Button colored>Github</Button>
+              </a>
             </CardActions>
           </Card>
         </Grid>
