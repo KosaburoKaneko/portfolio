@@ -13,9 +13,6 @@ class Contact extends Component {
               alt="icon"
               className="contact-icon"
             />
-            <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pulvinar commodo mauris, ut mollis metus scelerisque ut. Etiam eleifend orci vel lobortis tincidunt. Maecenas in nunc elementum, eleifend magna eget, ultrices justo. Aliquam eleifend erat id tortor convallis, ac placerat dolor malesuada. 
-            </p>
           </Cell>
 
           <Cell col={6} tablet={8} phone={4}>
@@ -35,13 +32,6 @@ class Contact extends Component {
                   <ListItemContent className="contact-list-items">
                     <i className="fa fa-envelope" aria-hidden="true"></i>
                     b1840943@gmail.com
-                  </ListItemContent>
-                </ListItem>
-
-                <ListItem>
-                  <ListItemContent className="contact-list-items">
-                    <i className="fa fa-skype" aria-hidden="true"></i>
-                    MySkypeID
                   </ListItemContent>
                 </ListItem>
               </List>

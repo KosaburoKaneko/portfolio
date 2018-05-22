@@ -9,14 +9,14 @@ class App extends Component {
     return (
       <div className="demo-big-content">
         <Layout>
-          <Header className="header__color" title={<Link style={{ textDecoration: 'none', color: 'white' }} to='/'>My Portfolio</Link>} scroll>
+          <Header className="header__color" title={<Link style={{ textDecoration: 'none', color: 'white' }} to='/'>Portfolio | Kosaburo Kaneko</Link>} scroll>
               <Navigation>
                   <Link to="/resume">Resume</Link>
                   <Link to="/projects">Projects</Link>
                   <Link to="/contact">Contact</Link>
               </Navigation>
           </Header>
-          <Drawer title={<Link style={{ textDecoration: 'none', color: 'black' }} to='/'>My Portfolio</Link>}>
+          <Drawer title={<Link style={{ textDecoration: 'none', color: 'black' }} to='/'>Portfolio</Link>}>
               <Navigation>
                 <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>
