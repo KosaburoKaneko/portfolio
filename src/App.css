@@ -24,7 +24,7 @@ a {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: calc(100% - 16px);
   height: 100%;
   overflow: scroll; }
 
@@ -58,7 +58,7 @@ a {
 
 .social-links {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 50%;
   margin: 0 auto 8px; }
 
@@ -120,15 +120,20 @@ a {
 .detail__hr {
   border-top: 3px solid #e22947; }
 
+.resume__img {
+  height: 200px;
+  -webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.2); }
+
 /* ------------------ Media queries ------------------ */
-/* - - - - - - - -   iPad 横画面幅以下   - - - - - - - - */
+/* - - - - - - - -   iPhone 5 / SE 縦画面幅以下、iPad 横画面幅以下   - - - - - - - - */
 @media screen and (min-width: 321px) and (max-width: 1024px) {
   .page-content {
     background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
     padding-top: 64px; }
   /* ------------------ Landing Page ------------------ */
   .icon {
-    width: 35%; }
+    width: 50%; }
   .banner-text {
     background-color: black;
     opacity: .8;
@@ -182,6 +187,8 @@ a {
     background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
     padding-top: 64px; }
   /* ------------------ Landing Page ------------------ */
+  .icon {
+    width: 50%; }
   .banner-text h1 {
     font-size: 40px;
     font-weight: bold;
@@ -194,6 +201,7 @@ a {
     color: white;
     font-size: 30px;
     padding: 8px; }
+  /* ------------------ Projects Page ------------------ */
   /* ------------------ Contact Page ------------------ */
   .contact-list-items {
     font-size: 15px;

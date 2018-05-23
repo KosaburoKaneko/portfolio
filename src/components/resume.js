@@ -10,11 +10,11 @@ class Resume extends Component {
       <div>
         <Grid>
           <Cell col={4} tablet={8} phone={4}>
-            <div style={{ textAlign: 'center' }}>
+            <div style={{ textAlign: 'center', marginTop: '69px' }}>
               <img 
                 src={require('../images/icon_face.jpg')}
                 alt="icon"
-                style={{ height: '200px' }}
+                className="resume__img"
               />
             </div>
 
