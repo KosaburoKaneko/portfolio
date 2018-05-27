@@ -24,14 +24,21 @@ class Contact extends Component {
                 <ListItem>
                   <ListItemContent className="contact-list-items">
                     <i className="fa fa-phone-square" aria-hidden="true"></i>
-                    080-6440-0233
+                    <a href="tel:080-6440-0233">080-6440-0233</a>
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
                   <ListItemContent className="contact-list-items">
-                    <i className="fa fa-envelope" aria-hidden="true"></i>
-                    b1840943@gmail.com
+                    <i className="fas fa-envelope-square" aria-hidden="true"></i>
+                    <a href="mailto:b1840943@gmail.com">b1840943@gmail.com</a>
+                  </ListItemContent>
+                </ListItem>
+
+                <ListItem>
+                  <ListItemContent className="contact-list-items">
+                    <i className="fab fa-facebook-messenger" aria-hidden="true"></i>
+                    <a href="http://m.me/kosaburo.kaneko">Kosaburo Kaneko</a>
                   </ListItemContent>
                 </ListItem>
               </List>

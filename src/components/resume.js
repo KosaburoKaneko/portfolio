@@ -19,16 +19,18 @@ class Resume extends Component {
             </div>
 
             <h2 style={{ paddingTop: '1em' }}>Kosaburo Kaneko</h2>
-            <h4 style={{ color: 'gray' }}>Programmer</h4>
+            <h4 style={{ color: 'gray' }}>Web Engineer</h4>
             <hr className="info__hr"/>
-            <p>福岡県出身。初めて触ったPCはWindows 95で、当時から個人ホームページ作成に勤しむ。HIPHOPが好きで英語を学び始め、中学卒業後に渡米。フリースタイルバトルで入賞経験あり。好きな食べ物はとんこつラーメン。</p>
+            <p>福岡県出身。初めて触ったPCはWindows 95で、当時から個人ホームページ作成に勤しむ。HIPHOP文化の理解を深めるために英語を学び始め、中学卒業後に渡米。フリースタイルバトルで入賞経験あり。好きな食べ物はとんこつラーメンとマルちゃん焼そば。</p>
             <hr className="info__hr"/>
             <h5>Address</h5>
-            <p>5-19-15, Nishikamata, Ota-ku, Tokyo, 144-0051, Japan</p>
+            <p>Kamata, Ota-ku, Tokyo, 144-0051, Japan</p>
             <h5>Phone</h5>
             <p>080-6440-0233</p>
             <h5>Email</h5>
             <p>b1840943@gmail.com</p>
+            <h5>Messenger</h5>
+            <p><a href="http://m.me/kosaburo.kaneko">Kosaburo Kaneko</a></p>
             <hr className="info__hr"/>
           </Cell>
 
@@ -63,7 +65,7 @@ class Resume extends Component {
               startYear={2016}
               endYear={2018}
               jobName="Sales Engineer of Industrial Machinery"
-              jobDescription="ドイツの産業機械メーカーの日本支社で技術営業として入社当時1人しかいなかった会社を支える。日本のお客様とドイツ本社との間に入り折衝を行い、国際的なコミュニケーションの重役を担う。また化学プラントや火力発電所での保守作業、部品・作業員手配、作業員指示管理や国内での営業活動、採用活動にも従事。"
+              jobDescription="ドイツの産業機械メーカーの日本支社で技術営業として入社当時1人しかいなかった会社を支える。日本の顧客とドイツ本社との間に入り折衝を行い、国際的なコミュニケーションの重役を担う。また化学プラントや火力発電所での保守作業、部品・作業員手配、作業員指示管理や国内での営業活動、採用活動にも従事。"
             />
 
             <hr className="detail__hr"/>

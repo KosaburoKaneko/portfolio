@@ -14,7 +14,7 @@ class Landing extends Component {
             />
 
             <div className="banner-text">
-              <h1>Full stack web developer</h1>
+              <h1>Full Stack Web Engineer</h1>
 
             <hr/>
 
@@ -23,17 +23,17 @@ class Landing extends Component {
               { /* LinkedIn */ }
               <div className="social-links">
                 <a href="https://github.com/KosaburoKaneko" rel="noopener noreferrer" target="_blank">
-                  <i className="fa fa-github-square" aria-hidden="true"></i>
+                  <i className="fab fa-github-square" aria-hidden="true"></i>
                 </a>
               
               { /* Github */ }
                 <a href="https://twitter.com/Kosaburo_Kaneko" rel="noopener noreferrer" target="_blank">
-                  <i className="fa fa-twitter-square" aria-hidden="true"></i>
+                  <i className="fab fa-twitter-square" aria-hidden="true"></i>
                 </a>
               
               { /* Freecodecamp */ }
                 <a href="https://www.facebook.com/kosaburo.kaneko" rel="noopener noreferrer" target="_blank">
-                  <i className="fa fa-facebook-square" aria-hidden="true"></i>
+                  <i className="fab fa-facebook-square" aria-hidden="true"></i>
                 </a>
               
               { /* Youtube */ }

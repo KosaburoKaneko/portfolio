@@ -16,7 +16,7 @@ class Projects extends Component {
       const wordCounter = require('../images/word_counter.gif');
       const chatSpace = require('../images/chat-space.gif');
       const scheduleArranger = require('../images/schedule-arranger.gif');
-      console.log(scheduleArranger);
+      const ogp = require('../images/ogp.png');
 
       return(
         <Grid className="projects-grid">
