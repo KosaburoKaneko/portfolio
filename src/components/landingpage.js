@@ -8,7 +8,7 @@ class Landing extends Component {
         <Grid className="landing-grid">
           <Cell col={12} style={{ paddingBottom: "30px", overflow: "scroll" }}>
             <img 
-              src={require('../images/icon.jpg')}
+              src='/image/icon_with_binder.jpg'
               alt="icon"
               className="icon"
             />
@@ -16,27 +16,25 @@ class Landing extends Component {
             <div className="banner-text">
               <h1>Full Stack Web Engineer</h1>
 
-            <hr/>
-
-              <p>HTML/CSS | Bootstrap | JavaScript | React | NodeJS | Express | Ruby | Rails</p>
+              <hr style={{marginBottom: 20 + 'px'}} />
               
-              { /* LinkedIn */ }
+              { /* Github */ }
               <div className="social-links">
                 <a href="https://github.com/KosaburoKaneko" rel="noopener noreferrer" target="_blank">
                   <i className="fab fa-github-square" aria-hidden="true"></i>
                 </a>
               
-              { /* Github */ }
+              { /* Twitter */ }
                 <a href="https://twitter.com/Kosaburo_Kaneko" rel="noopener noreferrer" target="_blank">
                   <i className="fab fa-twitter-square" aria-hidden="true"></i>
                 </a>
               
-              { /* Freecodecamp */ }
+              { /* Facebook */ }
                 <a href="https://www.facebook.com/kosaburo.kaneko" rel="noopener noreferrer" target="_blank">
                   <i className="fab fa-facebook-square" aria-hidden="true"></i>
                 </a>
               
-              { /* Youtube */ }
+              { /* Blog */ }
                 <a href="https://b1840943.hatenablog.jp/" rel="noopener noreferrer" target="_blank">
                   <i className="fa fa-rss-square" aria-hidden="true"></i>
                 </a>

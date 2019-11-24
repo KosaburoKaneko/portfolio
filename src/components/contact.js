@@ -9,7 +9,7 @@ class Contact extends Component {
           <Cell col={6} tablet={8} phone={4}>
             <h2>Kosaburo Kaneko</h2>
             <img 
-              src={require('../images/icon.jpg')}
+              src='/image/icon_with_binder.jpg'
               alt="icon"
               className="contact-icon"
             />
@@ -21,13 +21,6 @@ class Contact extends Component {
 
             <div className="contact-list">
               <List>
-                <ListItem>
-                  <ListItemContent className="contact-list-items">
-                    <i className="fa fa-phone-square" aria-hidden="true"></i>
-                    <a href="tel:080-6440-0233">080-6440-0233</a>
-                  </ListItemContent>
-                </ListItem>
-
                 <ListItem>
                   <ListItemContent className="contact-list-items">
                     <i className="fas fa-envelope-square" aria-hidden="true"></i>
